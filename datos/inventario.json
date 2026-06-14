@@ -1,0 +1,128 @@
+[
+    {
+        "nombre": "Aceite 123 1L",
+        "precio": 39.9,
+        "stock": 3,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Arroz Morelos Kg",
+        "precio": 26.0,
+        "stock": 0,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "AZUCAR ESTANDAR KG",
+        "precio": 28.0,
+        "stock": 10,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "cafe nescafe 200g",
+        "precio": 89.0,
+        "stock": 7,
+        "categoria": "Bebidas"
+    },
+    {
+        "nombre": "Chiles Jalapenos Lata",
+        "precio": 15.0,
+        "stock": 9,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Chocolate Abuelita",
+        "precio": 22.5,
+        "stock": 10,
+        "categoria": "Bebidas"
+    },
+    {
+        "nombre": "Coca-Cola 600ml",
+        "precio": 18.0,
+        "stock": 30,
+        "categoria": "Bebidas"
+    },
+    {
+        "nombre": "Detergente Roma 1kg",
+        "precio": 29.5,
+        "stock": 0,
+        "categoria": "Limpieza"
+    },
+    {
+        "nombre": "Frijol Bayo Kg",
+        "precio": 32.5,
+        "stock": 24,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Galletas Marias",
+        "precio": 14.0,
+        "stock": 2,
+        "categoria": "Botanas"
+    },
+    {
+        "nombre": "huevo san juan kg",
+        "precio": 42.0,
+        "stock": 15,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Jabon Zote",
+        "precio": 16.5,
+        "stock": 6,
+        "categoria": "Limpieza"
+    },
+    {
+        "nombre": "Leche Lala 1L",
+        "precio": 24.5,
+        "stock": 12,
+        "categoria": "Lacteos"
+    },
+    {
+        "nombre": "Mayonesa McCormick",
+        "precio": 38.5,
+        "stock": 0,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Pan Bimbo Grande",
+        "precio": 38.0,
+        "stock": 8,
+        "categoria": "Panaderia"
+    },
+    {
+        "nombre": "Papel Higienico 4r",
+        "precio": 32.0,
+        "stock": 5,
+        "categoria": "Limpieza"
+    },
+    {
+        "nombre": "Refresco Sidral 600",
+        "precio": 17.0,
+        "stock": 1,
+        "categoria": "Bebidas"
+    },
+    {
+        "nombre": "Sabritas Original",
+        "precio": 17.5,
+        "stock": 25,
+        "categoria": "Botanas"
+    },
+    {
+        "nombre": "Sal La Fina Kg",
+        "precio": 11.0,
+        "stock": 20,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Sopa Maruchan",
+        "precio": 12.0,
+        "stock": 40,
+        "categoria": "Abarrotes"
+    },
+    {
+        "nombre": "Tortillas Maiz Kg",
+        "precio": 22.0,
+        "stock": 18,
+        "categoria": "Abarrotes"
+    }
+]
