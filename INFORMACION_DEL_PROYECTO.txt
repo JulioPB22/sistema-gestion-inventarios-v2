@@ -1,0 +1,109 @@
+========================================================================
+ SISTEMA DE GESTION DE INVENTARIOS - TIENDA DE ABARROTES
+ Proyecto final de la certificacion en Python (nivel intermedio)
+ Autor: Julio P (JulioPB22)
+========================================================================
+
+
+REPOSITORIO EN GITHUB
+------------------------------------------------------------------------
+   https://github.com/JulioPB22/sistema-gestion-inventarios-v2
+
+   Ahi se encuentra el codigo completo, la base de datos de ejemplo, las
+   graficas y el informe del proyecto (en Word y PDF, carpeta docs/).
+
+
+QUE SE DESARROLLO
+------------------------------------------------------------------------
+Se construyo un programa en Python para que una tienda de abarrotes
+pequena pueda llevar el control de su inventario de forma sencilla. El
+programa permite:
+
+   - Registrar productos (nombre, precio, stock y categoria).
+   - Mostrar el inventario completo y su valor total.
+   - Reabastecer productos y registrar ventas (descontar stock).
+   - Eliminar productos.
+   - Evitar productos duplicados de forma automatica.
+   - Avisar cuales productos tienen bajo stock.
+   - Guardar y cargar el inventario solo (persistencia en un archivo JSON).
+   - Analizar y limpiar datos con pandas y generar graficas con matplotlib.
+
+
+COMO EJECUTARLO (MINI INSTRUCCIONES)
+------------------------------------------------------------------------
+1. Tener Python 3 instalado.
+
+2. Instalar las librerias necesarias (desde la carpeta del proyecto):
+      pip install -r requirements.txt
+
+3. Ejecutar el programa principal:
+      python src/main.py
+
+4. Aparece un menu en la consola; se elige una opcion escribiendo su
+   numero y presionando ENTER. Cada cambio se guarda automaticamente.
+
+   Opcional, solo el analisis de datos y las graficas:
+      python src/analisis.py
+
+
+ESTRUCTURA DEL PROYECTO
+------------------------------------------------------------------------
+   src/modelo.py       -> clase Producto (datos y validaciones)
+   src/inventario.py   -> clase Inventario (operaciones y persistencia)
+   src/analisis.py     -> analisis, limpieza de datos y graficas
+   src/main.py         -> menu de la consola
+   datos/              -> base de ejemplo (CSV) e inventario guardado (JSON)
+   graficas/           -> imagenes generadas
+   docs/               -> informe del proyecto (Word y PDF)
+
+
+========================================================================
+ INFORME DE LO APRENDIDO DURANTE LA CERTIFICACION Y EL PROYECTO
+========================================================================
+
+Durante la certificacion repase los fundamentos de Python y los lleve a
+la practica en un proyecto real. A continuacion resumo lo que aprendi y
+como lo aplique en el sistema de inventarios.
+
+1. Fundamentos del lenguaje
+   Variables, tipos de datos, condicionales, ciclos y funciones. En el
+   proyecto los use por todos lados, por ejemplo en el menu que repite
+   opciones con un while y valida lo que escribe el usuario.
+
+2. Programacion orientada a objetos (POO)
+   Aprendi a modelar el problema con clases. Cree la clase Producto para
+   representar cada articulo y la clase Inventario para administrarlos.
+   Esto ayuda a mantener el codigo ordenado y a que cada parte tenga una
+   responsabilidad clara.
+
+3. Estructuras de datos
+   Use listas, diccionarios y conjuntos (sets). El diccionario me permite
+   buscar un producto rapido por su nombre, y el conjunto me sirve para
+   detectar duplicados sin recorrer toda la lista.
+
+4. Manejo y analisis de datos
+   Con la libreria pandas aprendi a leer un archivo CSV, revisar los datos
+   (analisis exploratorio), detectar errores como valores faltantes o
+   duplicados, y limpiarlos antes de usarlos. Entendi la importancia de no
+   confiar en datos "sucios".
+
+5. Graficas
+   Con matplotlib genere graficas de barras, pastel e histograma para ver
+   el estado del inventario de un vistazo.
+
+6. Persistencia de informacion
+   Aprendi a guardar la informacion en un archivo JSON para que no se
+   pierda al cerrar el programa, y a cargarla de nuevo al abrirlo.
+
+7. Control de versiones y buenas practicas
+   Use Git y GitHub para guardar el proyecto y su historial de cambios.
+   Tambien aprendi la importancia de documentar el codigo, manejar errores
+   con excepciones y separar el programa en varios archivos (modulos).
+
+Conclusion personal:
+Mas alla de la parte tecnica, este proyecto me mostro como la programacion
+sirve para resolver un problema concreto y cotidiano, como es el control de
+inventario de un negocio pequeno. Me llevo la idea de que con herramientas
+sencillas se pueden construir soluciones utiles y bien organizadas.
+
+========================================================================
