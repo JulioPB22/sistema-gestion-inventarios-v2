@@ -1,4 +1,4 @@
-# 🛒 Sistema de Gestión de Inventarios — Tienda de Abarrotes
+# 🛒 Sistema de Gestión de Inventarios - Tienda de Abarrotes
 
 Sistema de gestión de inventario para una pequeña tienda de abarrotes,
 desarrollado en **Python** como proyecto final de una certificación de nivel
@@ -9,7 +9,7 @@ y **persistencia en archivos JSON**.
 
 ---
 
-## 📋 Características
+## Características
 
 | Punto clave | Funcionalidad |
 |-------------|---------------|
@@ -22,7 +22,7 @@ y **persistencia en archivos JSON**.
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 .
@@ -42,7 +42,7 @@ y **persistencia en archivos JSON**.
 
 ---
 
-## 🚀 Instalación y ejecución
+## Instalación y ejecución
 
 1. **Clonar el repositorio**
    ```bash
@@ -93,7 +93,7 @@ en `datos/inventario.json`, garantizando la persistencia entre sesiones.
 
 ---
 
-## 🧰 Tecnologías y conceptos aplicados
+## Tecnologías y conceptos aplicados
 
 - **POO**: clases `Producto` e `Inventario`, encapsulamiento, `@dataclass`,
   `@property`, métodos de clase y validación de estado.
