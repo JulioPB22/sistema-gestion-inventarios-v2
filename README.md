@@ -1,8 +1,7 @@
 # 🛒 Sistema de Gestión de Inventarios - Tienda de Abarrotes
 
 Sistema de gestión de inventario para una pequeña tienda de abarrotes,
-desarrollado en **Python** como proyecto final de una certificación de nivel
-intermedio. Demuestra el uso de **Programación Orientada a Objetos (POO)**,
+desarrollado en **Python** como proyecto final. Demuestra el uso de **Programación Orientada a Objetos (POO)**,
 **estructuras de datos avanzadas** (diccionarios, conjuntos, listas),
 **manipulación y análisis de datos con pandas**, **visualización con matplotlib**
 y **persistencia en archivos JSON**.
