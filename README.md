@@ -46,8 +46,8 @@ y **persistencia en archivos JSON**.
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/<usuario>/sistema-gestion-inventarios.git
-   cd sistema-gestion-inventarios
+   git clone https://github.com/JulioPB22/sistema-gestion-inventarios-v2.git
+   cd sistema-gestion-inventarios-v2
    ```
 
 2. **Instalar dependencias**
